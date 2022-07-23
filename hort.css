@@ -1,0 +1,393 @@
+/*CSS HEADER E FOOTER TODAS AS PAGS*/
+
+header {
+    background: url("background-header.png");
+}
+
+#imagem_centro { 
+    display: block;
+    margin: 0 auto;
+    border: 2px solid darkslategrey;
+    border-radius: 2%;
+}
+
+nav {
+    padding: 10px 0;
+    text-align: center;
+    background: darkslategrey;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+}
+
+.itens_menu {
+    display: inline-block;
+    margin: 0 2%;
+    font-size: 22px;    
+}
+
+.itens_menu:hover {
+    transform: scale(1.1);
+    background: #678674;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    background:darkslategrey;
+    border: 2px solid #678674;   
+}
+
+#logo_footer {
+    border-radius: 30px;
+}
+
+.copyright {
+    display: block;
+    padding-top: 20px;
+    color: white;
+    font-style: italic;
+    font-size: 13px;
+}
+
+/*CSS PAG HOME*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/*css regras gerais main pagina home*/
+.main_pag_home {
+    width: 940px;
+    margin: 0 auto;
+    padding: 2% 0;
+    color:#ffffff;
+    background: url("main-background.png");
+}
+
+.main_pag_home p {
+    text-align: center;
+}
+/* css titulos pagina home e contato*/
+.titulo {
+    padding: 4% 0 3% 0;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+/*css sessão sobre*/
+.sobre {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid darkslategrey;
+    background: url('background_sobre.png');
+}
+.citaçao {
+    padding-top: 14%;
+    font-style: italic;
+}
+
+#autor_citaçao {
+    padding-top: 1em;
+}
+/*css descrição dos beneficios,mapa e video*/
+.beneficio_mapa_video { 
+    width: 600px;
+    margin: 0 auto;
+    text-shadow: 2px 2px 2px black;
+}
+
+.lista_beneficios {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens_beneficios {
+    padding: 2% 0 0 2%;
+}
+
+.itens_beneficios:before {
+    content: "\229B";
+}
+
+.imagem_beneficios {
+    border: 1px solid #ffffff;
+    border-radius: 20px 25px 30px 35px;
+}
+
+.mapa {
+    width: 600px;
+    margin: 3% auto 8% auto;
+    border: 1px solid #678674;
+}
+
+.video {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#video_decoraçao {
+    box-shadow: 5px 5px  brown, -5px -5px darkgoldenrod;
+}
+
+/*CSS PAG PRODUTOS*/
+    
+.main_pag_produtos {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*css configuraçao do background do titulo principal*/
+.background_produtos {
+    width: 940px;
+    height: 300px;
+    margin: 2% auto 0 auto;
+    position: relative;
+    background: url(background_produtos.png);    
+    background-size: cover;
+    border: 1px solid darkslategrey;
+    border-radius: 10px;
+}
+
+#titulo_principal_produtos {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    font-family: 'Moon Dance', cursive;
+    font-size: 4em;
+    color: darkolivegreen;
+}
+/*css titulo e descriçao de cada sessão de produtos*/
+.titulos_produtos {
+    padding: 5% 0 1% 0 ;
+    font-size: 1.6em;  
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+.descriçao_produtos {
+    padding-bottom: 5%;
+    font-size: 1.4em;
+    color: darkslategrey;
+}
+/*css itens da lista de produtos das duas sessões*/
+.itens_produtos {
+    display: inline-block;  
+    margin: 0 0 5% 5%;
+    width: 245px;
+    height: 400px;
+    color: darkslategrey;
+    border: 2px solid darkslategrey;
+    border-radius:20px;  
+    background: url(background_itens_produtos.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.itens_produtos:hover {
+    scale: 1.02;
+}
+
+.nome_produtos {
+    font-family: 'Moon Dance', cursive;
+    font-size: 2.2em;
+    padding: 5% 0;
+}
+
+.preço_produtos {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 25%;
+    font-size: 1.2em;
+}
+
+.imagens_produtos {
+    border-radius: 50%;
+    border: 2px solid darkslategrey;
+}
+
+/*CSS PAG PLANO DE ENTREGA*/
+
+.main_pag_entrega {
+    width: 940px;
+    margin: 0 auto;
+}
+/*css imagem e descriçao inicial da pag*/
+#imagem_plano {
+    float: left;
+    border: 1px solid darkslategrey;
+    margin: 5% 0.5% 0 5%;
+    border-radius: 30px 60px 30px 60px;
+}
+
+.descriçao_entrega {
+    padding: 5% 0 5% 0;
+    height: 300px;
+    text-align: center;
+    font-size: 1.05em;    
+}
+/* css formulario para entrega*/
+#titulo_formulario {
+    margin: 0 0 2% 5% ;
+    font-size: 1.4em;
+}
+
+#imagem_formulario {
+    float: right;
+    border: 1px solid #ffffff;
+}
+
+.formulario {
+    width: 60%;
+    margin: 0 0 5% 5%;
+    padding: 2%;
+    font-size: 1.2em;
+    background: darkcyan;
+    border: 1px solid darkslategrey;
+}
+
+.input_plano {  
+    width: 50%;
+    margin: 2% 0 2% 0 ;
+    display: block;
+    padding: 10px 25px;
+}
+
+#titulo_principal_fieldset {
+    padding: 2% 0;
+    font-size: 1.21em; 
+}
+
+fieldset {
+    margin: 2% 0;
+}
+
+select {
+    width: 14%;
+    margin: 1% 0; 
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 2% 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background: orange;
+    border: none;
+    border-radius: 5px; 
+}
+
+/*CSS RESPONSIVIDADE DE TODAS AS PAGINAS*/
+
+@media screen and (max-width: 480px) {
+
+    /*PAG HOME*/
+
+   .main_pag_home, .video, .sobre, .beneficio_mapa_video, .mapa {
+       width: auto;
+   }
+
+   .sobre {
+        height: 480px;
+        padding: 5% 1%;
+        background-size: 100% 100%;
+   }
+
+   .citaçao {
+        padding-top: 15%;
+   }
+
+   .itens_menu {
+        font-size: 20px;
+   }
+
+   .titulo {
+        font-size: 1.2em;
+   }
+
+   #imagem_centro {
+        width: 100%;
+   }
+
+   .lista_beneficios {
+        margin-left: 8%;
+   }
+
+   .imagem_beneficios {
+       margin: 5% 0 0 10%;
+   }
+
+   #video_decoraçao {
+       width: 96%;
+       margin: 5% 2%;
+   }
+
+   /*PAG PRODUTOS*/
+
+   .main_pag_produtos {
+       width: auto;
+       font-size: 0.9em;
+   }
+
+   .background_produtos {        
+        width: auto;
+        height: 190px;
+   }
+
+   #titulo_principal_produtos {
+       top: 65%;
+       left: 0%;
+       font-size: 3em;
+   }
+   /* utilizei px e não % como parametro para que a imagem do background dos itens_produtos não
+   distorça em relaçao ao preço_produtos */ 
+   .lista_produtos {
+        width: 375px;
+        margin: 0 auto;
+   }
+
+   .itens_produtos {
+        width: 175px;
+        height: 300px;
+        margin: 0 0 5% 1%;
+   }    
+   
+   .itens_produtos:hover {
+        scale: 1.05;
+   }
+
+   .preço_produtos {
+       padding-top: 12%;
+       font-size: 1.1em;
+   }
+
+   .imagens_produtos {
+       max-width: 96%;
+   }
+    /*PAG PLANO DE ENTREGA*/
+   .main_pag_entrega, .formulario {
+       width: auto;
+       margin: auto;
+   }
+
+   #imagem_plano, #imagem_formulario, select {
+        width: 30%;
+   }
+
+   .enviar {
+        width: 70%;
+        display: block;
+        margin-top: 2%;
+   }
+
+   .checkbox {
+        margin: auto;
+   }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="hort.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+        rel="stylesheet"> 
+        <title>Plano mensal hortfruti Nakazono</title>
+    </head>
+    <body>
+        <header>
+            <img id="imagem_centro" width="500"   src="logoprincipal.png" alt="titulo nakazono hortifruti">
+            <nav>
+                <ul>
+                    <li class="itens_menu"><a href="hort.html">Home</a></li>
+                    <li class="itens_menu"><a  href="produtoshort.html">Produtos</a></li>
+                    <li class="itens_menu"><a href="plano_mensal.html">Plano mensal</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main_pag_entrega">             
+                <img id="imagem_plano" src="planoentrega.png">
+            <section class="descriçao_entrega">
+                <h1 class="titulo">Nosso plano de entrega mensal</h1>
+                <p>Nosso sistema de entrega foi desenvolvido para trazer mais facilidade e</p>
+                <p>comodidade aos nossos clientes, que receberá produtos frescos e ainda tem</p>
+                <p> disponível a opção de caixas reutilizáveis eliminando embalagens plásticas</p>
+                <p> e contribuindo para a diminuição da poluição de nosso planeta.<p>
+            </section>
+            
+            <h2 id="titulo_formulario">Preencha o formulário</h2>
+            <form class="formulario">
+                <img id="imagem_formulario" src="imagem_formulario.png">
+
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input_plano" required>
+                
+                <label for="endereço">Endereço</label>
+                <input type="adress" id="endereço" class="input_plano" required placeholder="av jose gazolla 911 nova esperança pr"> 
+
+                <label for="contato">Contato</label>
+                <input type="tel" id="contato" class="input_plano" required placeholder="44 998845627">  
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="60" rows="5" id="mensagem" class="input_plano"></textarea required>
+                
+                <h1 id="titulo_principal_fieldset">Agendamento da entrega</h1>
+                <fieldset>
+                    <legend>Período de recebimento</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Dia da entrega</legend>
+                    <select>
+                        <option>Terça</option>
+                        <option>Sábado</option>
+                    </select>
+                <fieldset>
+                    <legend>Opção de caixa reutilizável(50cm x 30cm)</legend>
+                    <select>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </fieldset>
+
+                <label><input class="checkbox" type="checkbox" checked>Gostaria de receber nossas novidades whatsapp?</label>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+        </main>
+        <footer>
+            <img id="logo_footer" src="logo.png">
+            <a class="copyright">&copy; Copyright Nakazono Hortifruti - 2010</a>
+        </footer>
+    </body>
+</html>
